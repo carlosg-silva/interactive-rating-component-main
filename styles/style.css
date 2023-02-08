@@ -1,0 +1,104 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  height: 365px;
+  width: 365px;
+  background: hsl(213, 19%, 18%);
+  margin: auto;
+  border-radius: 8%;
+}
+
+.card-content {
+  margin: 30px;
+  max-width: 335px;
+  max-height: 335px;
+}
+.card-content h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.56rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.card-icon {
+  display: flex;
+  background: hsl(213, 10%, 22%);
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.card-icon img {
+  width: 14px;
+  height: 14px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: 1.87rem;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 10px;
+  background: hsl(213, 10%, 22%);
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+nav ul li:hover {
+  color: white;
+  background: hsl(217, 12%, 63%);
+}
+
+.button {
+  max-width: 305px;
+  text-align: center;
+}
+
+.button a {
+  display: inline-block;
+  background: hsl(25, 97%, 53%);
+  font-size: 0.93rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  padding: 10px 41%;
+  border-radius: 20px;
+}
